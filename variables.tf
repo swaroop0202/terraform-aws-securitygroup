@@ -6,7 +6,10 @@ variable "Environment"{
     type = string
 }
 
-
+variable "sg_name"{
+    type = string
+    default = "db"
+}
 
 
 variable "sg_description"{
