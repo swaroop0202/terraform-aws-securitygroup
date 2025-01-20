@@ -1,3 +1,14 @@
+variable "project_name"{
+    type = string
+}
+
+variable "Environment"{
+    type = string
+}
+
+
+
+
 variable "sg_description"{
     type = string
 }
